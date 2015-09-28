@@ -9,7 +9,7 @@ wifi.sta.config("WutheringBytes", "")
 wifi.sta.connect()
 
 print("Waiting a little bit to get an IP address...")
-tmr.delay(1000 * 1000 * 10)
+tmr.delay(1000 * 1000 * 30)
 
 print("Device mode: " .. wifi.getmode())
 print("(1 = STATION, 2 = SOFTAP, 3 = STATIONAP)")
